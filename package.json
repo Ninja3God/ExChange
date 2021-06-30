@@ -16,6 +16,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "author": "",
+  "author": "Shashank Negi",
   "license": "ISC"
 }
