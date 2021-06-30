@@ -6,21 +6,11 @@ A web app to get a real time chat application which helps to bring buyers and se
 
 npm install
 
-### Usage
-
-To be written by author soon.
-
 ### Demo
 
 [Demo on how the program works](https://drive.google.com/file/d/1rlbRAXSmOnye-GGXdcfn5_-AJzfxaa3-/view?usp=sharing)
 
-### Contributing
+### Made By-
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to test as appropriate before pull request.
-
-### License
-
-open source software
+Shashank Negi
 
