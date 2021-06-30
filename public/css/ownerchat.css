@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.major{
+    width: 60%; 
+}
+
+.major, .minor{
+    margin: 4% 3%;
+}
+.photos{
+    
+    border: 3px rgba(0,0,0,0.5) solid;
+    border-radius: 7px;
+}
+
+.photos, .description, .related-ads{
+    margin-bottom: 1%;
+}
+
+.carousel{
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 500px;
+    /* overflow: hidden; */
+    width: 100%;
+}
+ .carousel-item img {
+    /* width: 100%; */
+    height: 100%;
+    width: auto;
+    object-fit:cover;
+}
+
+.description{
+    /* border: 1px rgba(56, 56, 56, 0.5) solid; */
+    padding: 5% 0;
+    white-space: normal;
+    border-radius: 5px;
+}
+
+.related-ads{
+    height: 30%;
+    width: 100%;
+    /* background-color: #0d6efd; */
+    border-radius: 5px;
+}
+
+.minor{
+    width: 40%;
+    overflow: scroll;
+    height: 700px
+}
+
+.price{
+    border: 1px rgba(0,0,0,0.5) solid;
+    padding: 5% 10%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+.chats{
+    border: 1px rgba(0,0,0,0.5) solid;
+    margin-bottom: 2%;
+    padding: 5%;
+    max-height: 340px;
+    height: fit-content;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.chat-body{
+    overflow-y: scroll;
+    max-height: 200px;
+    height: fit-content;
+}
+
+.message{
+    width: 80%;
+    border-radius: 50px;
+    height: 33.33px;
+    outline: none;
+}
+
+.button-search{
+    border-radius: 50px;
+}
+
+.contact{
+    display: flex;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 90px;
+}
+
+.contact-but{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.contact-but .button{
+    border-radius: 50px;
+    width: 50%;
+}
+
+.contact-but a{
+    text-decoration: none;
+    color: #000;
+}
+
+.location{
+    background-color: yellow;
+    height: 300px;
+    width: 100%;
+}
+
+input.message{
+    width: 70%;
+    margin: 0;
+    padding: 3%;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+input.message:focus{
+    border: 4px  rgba(61, 139, 253, 0.5 ) solid ;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px)
+{
+    .wrapper{
+        display: block;
+    }
+    .major, .minor{
+        width: 85%;
+        margin: 30px auto;
+    }
+
+    .related-ads{
+        height: 300px;
+        width: 100%;
+    }
+}

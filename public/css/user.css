@@ -1,0 +1,96 @@
+.wrapper{
+    display: flex;
+}
+
+.left{
+    width: 40%;
+}
+
+.right{
+    width: 60%;
+    padding: 1%;
+    /* background-color: red; */
+    border: 2px rgba(0, 0, 0, 0.5) solid;
+    border-radius: 8px;
+    margin: 0.9%;
+    overflow: hidden;
+}
+
+.profile{
+    /* background-color: yellow; */
+    height: 150px;
+    /* display: flex; */
+    border: 2px rgba(0, 0, 0, 0.5) solid;
+    border-radius: 8px;
+    margin: 2%;
+    margin-bottom: -1%;
+}
+
+p{
+    white-space: normal;
+}
+
+div h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.your-ads{
+    padding: 5%;
+    margin: 0 auto;
+    height: 480px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.card{
+    margin: 3% auto;
+}
+
+
+.profile-pic{
+    padding: 2%;
+    
+}
+
+.profile-pic img{
+    border-radius: 50%;
+    width: 100px;
+    float: left;
+}
+/* 
+.button-post{
+    border-radius: 50px;
+} */
+
+.post-ad{
+    border: 2px rgba(0, 0, 0, 0.5) solid;
+    border-radius: 8px;
+    margin: 2%;
+    padding: 3%;
+}
+
+#post-ad{
+    width: 200px;
+}
+
+.post-ad-btn{
+    text-align: center;
+    /* width: 100px; */
+}
+
+.round-button{
+    border-radius: 50px;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .wrapper{
+        display: block;
+        margin: 0 auto;
+    }
+    .left , .right{
+        width: 100%;
+    }
+}

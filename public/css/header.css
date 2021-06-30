@@ -1,0 +1,50 @@
+.nav{
+    min-width: 320px;
+    z-index: 50;
+    background-color: #3d8bfd;
+    top: 0;
+    position:sticky;
+}
+
+.Title-logo{
+    height: 40px;
+}
+
+.search-bar{
+    border-radius: 70px;
+    max-width: 300px;
+    min-width: 250px;
+}
+
+.button-search{
+    border-radius: 70px;
+    white-space: nowrap;
+    /* margin: 21px; */
+    /* margin: 3px 0px 3px 0px; */
+}
+
+.button-search a{
+    color: #000;
+}
+
+.login li a{
+    color: white;
+}
+
+#login-btn{
+    margin-left: 8px;
+}
+
+
+@media only screen and (max-width: 992px)
+{
+    .button-search{
+        /* margin: 21px; */
+        margin: 5px 0px 3px 0px;
+    }
+
+    .btn-res, #dash{
+        margin-left: -11px;
+    }
+}
+
