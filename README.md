@@ -6,9 +6,6 @@ A web app to get a real time chat application which helps to bring buyers and se
 
 npm install
 
-### Demo
-
-[Demo on how the program works](https://drive.google.com/file/d/1rlbRAXSmOnye-GGXdcfn5_-AJzfxaa3-/view?usp=sharing)
 
 ### Made By-
 
